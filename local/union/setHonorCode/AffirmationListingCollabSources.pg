@@ -1,0 +1,80 @@
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGunion.pl",            # Union College utilities
+  "MathObjects.pl",
+  "PGcourse.pl",           # Customization file for the course
+);
+
+loadMacros(
+   "parserPopUp.pl",
+   "contextArbitraryString.pl",
+);
+
+TEXT(beginproblem);
+
+###################################
+# Setup
+
+
+$affirm = PopUp(["","affirm","do not affirm"],"affirm");
+
+Context("ArbitraryString");
+$collaborators = String("");
+$sources = String("");
+
+$alwaysTrue = sub {
+   my ($correct,$student,$ans) = @_;
+   $student = substr($student,0,3)." ... ".substr($student,-3) if
+length($student) > 15;
+   $ans->{preview_text_string} = $student;
+   $ans->{preview_latex_string} = "\verb".chr(126).$student.chr(126);
+   return 1;
+};
+
+###################################
+# Main text
+
+BEGIN_TEXT
+
+In the boxes below, list the names of your collaborators and the sources you used.
+If you worked alone and/or without sources, leave the boxes empty as appropriate.
+$PAR
+(Do NOT hit the RETURN key within a box; this will cause an error.)
+$PAR
+Collaborators:$BR
+\{ANS_BOX(50,5)\}
+$PAR
+Sources:$BR
+\{ANS_BOX(50,5)\}
+$PAR
+Course policy: You may use a scientific calculator (not a graphing or programmable calculator) for WeBWorK and other homework assignments. You may discuss problems with classmates, and you may also get help from on-campus tutors or students outside the course, as long as they help you with a problem and do not do it for you. You may use any course materials posted on Nexus or WeBWorK. 
+
+$PAR
+
+The following are forbidden: use of online solutions; use of online tutoring services or homework forums; use of symbolic differentiators or integrators--whether online or on a calculator, computer, or other device; copying homework from another student; copying solutions from a text, from a previous year, or from another course, whether at Union or another institution. 
+
+$PAR
+
+I \{$affirm->menu\} that I have carried out this assignment with full academic honesty in accordance with the policies of this course and the Union College Honor Code (available at 
+\{ htmlLink( "http://honorcode.union.edu/", "honorcode.union.edu" ) \}.)
+
+END_TEXT
+
+###################################
+# Answers
+
+ANS(
+   $collaborators->cmp(checker=>$alwaysTrue),
+   $sources->cmp(checker=>$alwaysTrue),
+   $affirm->cmp(checker=>$alwaysTrue),
+);
+
+
+###################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.
+
+
+

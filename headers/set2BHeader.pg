@@ -1,0 +1,26 @@
+DOCUMENT();
+
+loadMacros("courseHeaders.pl");
+
+$message="
+Read p347-349 (top) and Example 1 on p355-356. 
+";
+
+courseHeader(
+
+  topic     => "the definite integral",
+
+  bookinfo  => "Sections 5.4 and 5.5",
+
+  bookprobs => ["Section 5.5 $NUMBER 13, 15, 19"],
+
+  moreprobs => undef,  # set to a list like bookprobs above
+                       # if you want a listing for more problems
+
+  text      => $message,
+
+  showhint  => 0,  # set to 1 if you want a WeBWorK hint
+                   # at the bottom of the info panel
+);
+
+ENDDOCUMENT();

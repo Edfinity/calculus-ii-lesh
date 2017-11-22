@@ -1,0 +1,27 @@
+DOCUMENT();
+
+loadMacros("courseHeaders.pl");
+
+$message="
+Put your message here, if you want one, otherwise
+comment out the 'text' item below using a number sign.
+";
+
+courseHeader(
+
+  topic     => "integration",
+
+  bookinfo  => "Chapter 7",
+
+  bookprobs => undef,
+
+  moreprobs => undef,  # set to a list like bookprobs above
+                       # if you want a listing for more problems
+
+ # text      => $message,
+
+  showhint  => 0,  # set to 1 if you want a WeBWorK hint
+                   # at the bottom of the info panel
+);
+
+ENDDOCUMENT();

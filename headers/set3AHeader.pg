@@ -1,0 +1,26 @@
+DOCUMENT();
+
+loadMacros("courseHeaders.pl");
+
+$message="
+Read p362-363 (middle), Examples 1-8, and p367-368. 
+";
+
+courseHeader(
+
+  topic     => "using the Fundamental Theorem of Calculus",
+
+  bookinfo  => "Section 5.6",
+
+  bookprobs => ["Section 5.5 $NUMBER 21, 23", "Section 5.6 $NUMBER 9, 17, 19, 21, 25, 29"],
+
+  moreprobs => undef,  # set to a list like bookprobs above
+                       # if you want a listing for more problems
+
+  text      => $message,
+
+  showhint  => 0,  # set to 1 if you want a WeBWorK hint
+                   # at the bottom of the info panel
+);
+
+ENDDOCUMENT();

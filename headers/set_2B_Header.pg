@@ -1,0 +1,26 @@
+DOCUMENT();
+
+loadMacros("courseHeaders.pl");
+
+$message="
+For this assignment, you must hand in hardcopy of your work. Use the templates provided on Nexus. This is required---your work will only be accepted on that form. 
+";
+
+courseHeader(
+
+  topic     => "the definite integral",
+
+  bookinfo  => undef,
+
+  bookprobs => undef,
+
+  moreprobs => undef,  # set to a list like bookprobs above
+                       # if you want a listing for more problems
+
+  text      => $message,
+
+  showhint  => 0,  # set to 1 if you want a WeBWorK hint
+                   # at the bottom of the info panel
+);
+
+ENDDOCUMENT();

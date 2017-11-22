@@ -1,0 +1,66 @@
+DOCUMENT();
+
+#########################################################
+##
+##  Use the 'Save As' button to save this file in your
+##  course directory.  Use the name
+##
+##    local/setName/probName.pg
+##
+##  where 'setName' is the name of the set where you want
+##  to store the problem, and 'probName' is the name of
+##  the problem itself.
+##
+##  You can erase these lines before saving the file.
+##
+#########################################################
+
+##
+## Load whatever macros you need for the problem
+##
+loadMacros(
+  "PGstandard.pl",
+  "PGunion.pl",
+  "parserOrientation.pl",
+  "PGcourse.pl",
+);
+ 
+TEXT(beginproblem());
+BEGIN_PROBLEM();
+
+##############################################
+#
+#  Setup
+#
+
+##
+## create variables, etc, here
+##
+
+
+##############################################
+#
+#  Problem Text
+#
+
+BEGIN_TEXT
+Submission of this problem is required in order to get credit for the assignment.
+$PAR
+
+By submitting this problem, you make the following affirmation: 
+
+${LQ}I affirm that I have carried out this assignment with full academic honesty in accordance with the policies in the course syllabus (available on Nexus) and the College academic honesty policy (available at honorcode.union.edu).${RQ}
+
+END_TEXT
+
+
+##############################################
+#
+#  Answers
+#
+
+install_forgiving_grader();
+$showPartialCorrectAnswers = 0;   ### set to 1 to allow partial credit
+
+END_PROBLEM();
+ENDDOCUMENT();

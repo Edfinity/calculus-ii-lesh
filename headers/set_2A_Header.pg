@@ -1,0 +1,28 @@
+DOCUMENT();
+
+loadMacros("courseHeaders.pl");
+
+$message="
+On Problem 11, be careful about the lower limit of summation. How can you account for the discrepancy between what you have and what the formula would give? 
+<br>
+No more problems will be added to this WeBWorK assignment--it is now complete. 
+";
+
+courseHeader(
+
+  topic     => "summation",
+
+  bookinfo  => "Section 5.4",
+
+  bookprobs => undef,
+
+  moreprobs => undef,  # set to a list like bookprobs above
+                       # if you want a listing for more problems
+
+  text      => $message,
+
+  showhint  => 0,  # set to 1 if you want a WeBWorK hint
+                   # at the bottom of the info panel
+);
+
+ENDDOCUMENT();

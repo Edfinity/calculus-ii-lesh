@@ -1,0 +1,20 @@
+
+openDate          = 05/06/2015 at 11:45am EDT
+dueDate           = 05/12/2015 at 05:00pm EDT
+answerDate        = 05/12/2015 at 06:15pm EDT
+paperHeaderFile   = 
+screenHeaderFile  = headers/set_5A_Header.pg
+problemList       = 
+union/setIntInverseTrigSub/an8_4_02.pg, 1, -1 
+union/setIntInverseTrigSub/an8_4_04.pg, 1, -1 
+union/setIntInverseTrigSub/an8_4_05.pg, 1, -1 
+union/setIntSubstitution/an6_3_15.pg, 1, -1 
+union/setIntSubstitution/c4s5p2.pg, 1, -1 
+local/setIntInverseTrigSub/an8_4_10.pg, 1, -1 
+union/setIntInverseTrigSub/an8_4_03.pg, 1, -1 
+union/setIntInverseTrigSub/an8_4_06.pg, 1, -1 
+union/setIntInverseTrigSub/an8_4_07.pg, 1, -1 
+union/setIntInverseTrigSub/an8_4_08.pg, 1, -1 
+union/setIntInverseTrigSub/an8_4_01.pg, 1, -1 
+local/union/setHonorCode/AffirmationListingCollabSources.pg, 0, -1 
+

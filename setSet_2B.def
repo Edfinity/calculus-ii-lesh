@@ -1,0 +1,17 @@
+
+openDate          = 04/10/2015 at 03:40pm EDT
+dueDate           = 04/13/2015 at 10:15am EDT
+answerDate        = 04/13/2015 at 05:15pm EDT
+paperHeaderFile   = 
+screenHeaderFile  = headers/set_2B_Header.pg
+problemList       = 
+union/setIntSignedArea/sc5_2_24.pg, 1, -1 
+union/setIntSignedArea/sc5_2_28.pg, 1, -1 
+union/setIntSignedArea/ur_in_0_2.pg, 1, -1 
+union/setIntRiemannSums/an5_4_A.pg, 1, -1 
+union/setIntRiemannSums/an6_4_39.pg, 1, -1 
+union/setIntRiemannSums/an6_4_37.pg, 1, -1 
+union/setIntRiemannSums/an5_4_C.pg, 1, -1 
+union/setIntRiemannSums/an5_4_D.pg, 1, -1 
+union/setHonorCode/AffirmationListingCollabSources.pg, 0, -1 
+

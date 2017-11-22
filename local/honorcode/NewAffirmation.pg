@@ -1,0 +1,67 @@
+DOCUMENT();
+
+#########################################################
+##
+##  Use the 'Save As' button to save this file in your
+##  course directory.  Use the name
+##
+##    local/setName/probName.pg
+##
+##  where 'setName' is the name of the set where you want
+##  to store the problem, and 'probName' is the name of
+##  the problem itself.
+##
+##  You can erase these lines before saving the file.
+##
+#########################################################
+
+##
+## Load whatever macros you need for the problem
+##
+loadMacros(
+  "PGstandard.pl",
+  "PGunion.pl",
+  "parserOrientation.pl",
+  "PGcourse.pl",
+);
+ 
+TEXT(beginproblem());
+BEGIN_PROBLEM();
+
+##############################################
+#
+#  Setup
+#
+
+##
+## create variables, etc, here
+##
+
+
+##############################################
+#
+#  Problem Text
+#
+
+BEGIN_TEXT
+Submission of this problem is required in order to get credit for the assignment.
+$PAR
+Course policy: You may use a scientific calculator (not a graphing or programmable calculator) for WeBWorK and other homework assignments. You may discuss problems with classmates, and you may also get help from on-campus tutors or students outside the course, as long as they help you with a problem and do not do it for you. You may use any course materials posted on Nexus or WeBWorK. The following are forbidden: use of online solutions; use of online tutoring services or homework forums; use of symbolic differentiators or integrators--whether online or on a calculator, computer, or other device; copying homework from a classmate or a former student; copying solutions from a text, from a previous year, or from another course, whether at Union or another institution.
+$PAR
+By submitting this problem, you make the following affirmation: 
+
+${LQ}I affirm that I have carried out this assignment with full academic honesty in accordance with the policies above and the College academic honesty policy (available at honorcode.union.edu).${RQ}
+
+END_TEXT
+
+
+##############################################
+#
+#  Answers
+#
+
+install_forgiving_grader();
+$showPartialCorrectAnswers = 0;   ### set to 1 to allow partial credit
+
+END_PROBLEM();
+ENDDOCUMENT();

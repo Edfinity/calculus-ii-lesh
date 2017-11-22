@@ -1,0 +1,26 @@
+DOCUMENT();
+
+loadMacros("courseHeaders.pl");
+
+$message="
+Read p501 (bottom)-505.
+";
+
+courseHeader(
+
+  topic     => "trigonometric integrals",
+
+  bookinfo  => "Section 7.3",
+
+  bookprobs => ["Section 7.3 $NUMBER 11, 19, 32, 37, 43"],
+
+  moreprobs => undef,  # set to a list like bookprobs above
+                       # if you want a listing for more problems
+
+  text      => $message,
+
+  showhint  => 0,  # set to 1 if you want a WeBWorK hint
+                   # at the bottom of the info panel
+);
+
+ENDDOCUMENT();

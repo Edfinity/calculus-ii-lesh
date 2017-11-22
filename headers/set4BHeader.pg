@@ -1,0 +1,26 @@
+DOCUMENT();
+
+loadMacros("courseHeaders.pl");
+
+$message="
+Read Example 1 and Example 5 in Section 7.4. 
+";
+
+courseHeader(
+
+  topic     => "trig substitution",
+
+  bookinfo  => "Section 7.4",
+
+  bookprobs => undef,
+
+  moreprobs => undef,  # set to a list like bookprobs above
+                       # if you want a listing for more problems
+
+  text      => $message,
+
+  showhint  => 0,  # set to 1 if you want a WeBWorK hint
+                   # at the bottom of the info panel
+);
+
+ENDDOCUMENT();

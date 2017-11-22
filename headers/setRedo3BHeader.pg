@@ -1,0 +1,36 @@
+DOCUMENT();
+
+loadMacros("courseHeaders.pl");
+
+$message="
+This set is a redo for anyone who misunderstood or lost sight of the course syllabus policies on WeBWorK assignments. 
+$PAR
+Reminder: The following are forbidden: use of online solutions; use of online tutoring services or homework forums; use of symbolic differentiators or integrators--whether online or on a calculator, computer, or other device; copying homework from a classmate or a former student; copying solutions from a text, from a previous year, or from another course, whether at Union or another institution.
+$PAR
+You may discuss problems with classmates, and you may also get help from on-campus tutors or students outside the course, as long as they help you with a problem and do not do it for you.
+";
+
+courseHeader(
+
+  topic     => "integration",
+
+  bookinfo  => "Section 7.2",
+
+  bookprobs => undef,
+
+  moreprobs => ["Hardcopy of the work for this assignment must be turned
+               in by 7:45pm on Wednesday Feb 6. Solutions must be neatly 
+                written, problems must appear in order, 
+                and multiple pages must be 
+                stapled together in order for the work to be accepted for
+                credit." ],  
+                  # set to a list like bookprobs above
+                       # if you want a listing for more problems
+
+  text      => $message,
+
+  showhint  => 0,  # set to 1 if you want a WeBWorK hint
+                   # at the bottom of the info panel
+);
+
+ENDDOCUMENT();

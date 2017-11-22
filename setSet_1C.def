@@ -1,0 +1,25 @@
+
+openDate          = 01/14/2013 at 10:23am EST
+dueDate           = 01/16/2013 at 10:20am EST
+answerDate        = 01/16/2013 at 10:20am EST
+paperHeaderFile   = 
+screenHeaderFile  = headers/set1CHeader.pg
+problemList       = 
+union/setIntSubstitution/osu_in_14_2.pg, 1, -1 
+union/setIntBasic/basic2.pg, 1, -1 
+union/setIntSubstitution/an6_3_01and02.pg, 1, -1 
+union/setIntSubstitution/an6_3_03and04.pg, 1, -1 
+union/setIntSubstitution/6-2-19.pg, 1, -1 
+union/setIntSubstitution/an6_3_05.pg, 1, -1 
+union/setIntSubstitution/an6_3_07and09.pg, 1, -1 
+union/setIntSubstitution/an6_3_13.pg, 1, -1 
+union/setIntSubstitution/an6_3_15.pg, 1, -1 
+union/setIntBasic/basic1.pg, 1, -1 
+union/setIntSubstitution/an6_3_08.pg, 1, -1 
+union/setIntSubstitution/an6_3_12.pg, 1, -1 
+union/setIntSubstitution/an6_3_14.pg, 1, -1 
+union/setIntSubstitution/sc5_5_04.pg, 1, -1 
+union/setIntSubstitution/sc5_5_24.pg, 1, -1 
+union/setIntSubstitution/sc5_5_35.pg, 1, -1 
+local/honorcode/Affirmation.pg, 0, -1 
+

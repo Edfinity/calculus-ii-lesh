@@ -1,0 +1,56 @@
+## DESCRIPTION
+##   Evaluate a Finite Sum
+## ENDDESCRIPTION
+
+## KEYWORDS('Sum', 'Sigma Notation', 'Arithmetic Series')
+## Tagged by nhamblet
+
+## DBsubject('Calculus')
+## DBchapter('Infinite Sequences and Series')
+## DBsection('Series')
+## Date('8/23/07')
+## Author('K. Lesh')
+## Institution('Union')
+## TitleText1('Calculus')
+## EditionText1('7')
+## AuthorText1('Anton')
+## Section1('6.4')
+## Problem1('08')
+
+DOCUMENT();        # This should be the first executable line in the problem.
+
+loadMacros(
+  "PGstandard.pl",
+  "PGunion.pl",            # Union College utilities
+  "MathObjects.pl",
+  "PGcourse.pl",           # Customization file for the course
+);
+
+TEXT(beginproblem);
+
+###################################
+# Setup
+$a = random(2,8,1);
+$b = random(2,8,1);
+$summand = "\frac{$b}{n}\left( $a+\frac{$b k}{n} \right)";
+###################################
+# Main text
+
+BEGIN_TEXT
+Find the numerical value of the sum below.
+$PAR
+\( \displaystyle\lim_{n\rightarrow\infty} 
+\sum\limits_{k=1}^{n}  $summand 
+ \) = \{ans_rule(30)\}
+END_TEXT
+
+###################################
+# Answers
+
+$showPartialCorrectAnswers = 1;
+$ans = $a*$b+$b**2/2;
+ANS(Real($ans)->cmp);
+
+###################################
+
+ENDDOCUMENT();        # This should be the last executable line in the problem.

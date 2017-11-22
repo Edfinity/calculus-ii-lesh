@@ -1,0 +1,26 @@
+DOCUMENT();
+
+loadMacros("courseHeaders.pl");
+
+$message="
+Read p340-343 in Section 5.4.
+";
+
+courseHeader(
+
+  topic     => "sigma notation",
+
+  bookinfo  => "Section 5.4",
+
+  bookprobs => undef,
+
+  moreprobs => ["Prove the second and third properties of summation from class"],  # set to a list like bookprobs above
+                       # if you want a listing for more problems
+
+  text      => $message,
+
+  showhint  => 0,  # set to 1 if you want a WeBWorK hint
+                   # at the bottom of the info panel
+);
+
+ENDDOCUMENT();
