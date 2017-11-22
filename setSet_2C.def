@@ -5,10 +5,10 @@ answerDate        = 01/25/2013 at 10:15pm EST
 paperHeaderFile   = 
 screenHeaderFile  = headers/set2CHeader.pg
 problemList       = 
-union/setIntRiemannSums/an6_4_41.pg, 2, -1 
-union/setIntRiemannSums/an6_4_37.pg, 2, -1 
-union/setIntRiemannSums/an6_4_39.pg, 2, -1 
-union/setIntRiemannSums/an5_4_B.pg, 3, -1 
-union/setIntRiemannSums/an5_4_D.pg, 3, -1 
+Library/Union/setIntRiemannSums/an6_4_41.pg, 2, -1 
+Library/Union/setIntRiemannSums/an6_4_37.pg, 2, -1 
+Library/Union/setIntRiemannSums/an6_4_39.pg, 2, -1 
+Library/Union/setIntRiemannSums/an5_4_B.pg, 3, -1 
+Library/Union/setIntRiemannSums/an5_4_D.pg, 3, -1 
 local/honorcode/Affirmation.pg, 0, -1 
 

@@ -2,18 +2,17 @@
 openDate          = 04/01/2015 at 04:20pm EDT
 dueDate           = 04/03/2015 at 10:15am EDT
 answerDate        = 04/03/2015 at 05:15pm EDT
-paperHeaderFile   = 
+paperHeaderFile   =
 screenHeaderFile  = headers/set_1A_Header.pg
-problemList       = 
-union/setDervBasic/3-4-10.pg, 1, -1 
-union/setDervBasic/3-4-40.pg, 1, -1 
-union/setDervBasic/s2_2_11b.pg, 1, -1 
-union/setDervProductQuotientRule/3-5-32.pg, 1, -1 
-union/setDervProductQuotientRule/ur_dr_2_1.pg, 1, -1 
-union/setDervTrigonometric/s2_4_27b.pg, 1, -1 
-union/setDervChainRule/3-6-29.pg, 1, -1 
-union/setDervChainRule/an3_5_17.pg, 1, -1 
-union/setDervChainRule/an4_4_20.pg, 1, -1 
-union/setDervChainRule/an4_4_21.pg, 1, -1 
-union/setHonorCode/AffirmationListingCollabSources.pg, 0, -1 
-
+problemList       =
+Library/Union/setDervBasic/3-4-10.pg, 1, -1
+Library/Union/setDervBasic/3-4-40.pg, 1, -1
+Library/Union/setDervBasic/s2_2_11b.pg, 1, -1
+Library/Union/setDervProductQuotientRule/3-5-32.pg, 1, -1
+Library/Union/setDervProductQuotientRule/ur_dr_2_1.pg, 1, -1
+Library/Union/setDervTrigonometric/s2_4_27b.pg, 1, -1
+Library/Union/setDervChainRule/3-6-29.pg, 1, -1
+Library/Union/setDervChainRule/an3_5_17.pg, 1, -1
+Library/Union/setDervChainRule/an4_4_20.pg, 1, -1
+Library/Union/setDervChainRule/an4_4_21.pg, 1, -1
+Library/Union/setHonorCode/AffirmationListingCollabSources.pg, 0, -1

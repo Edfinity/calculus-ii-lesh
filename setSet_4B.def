@@ -5,16 +5,16 @@ answerDate        = 04/29/2015 at 05:33pm EDT
 paperHeaderFile   = 
 screenHeaderFile  = headers/set_4B_Header.pg
 problemList       = 
-union/setIntByParts/sc5_6_01.pg, 1, -1 
-union/setIntByParts/an8_2_03.pg, 1, -1 
-union/setIntByParts/sc5_6_02.pg, 1, -1 
-union/setIntByParts/sc5_6_03.pg, 1, -1 
-union/setIntByParts/an8_2_13.pg, 1, -1 
-union/setIntByParts/sc5_6_07.pg, 1, -1 
-union/setIntByParts/sc5_6_04.pg, 1, -1 
-union/setIntByParts/sc5_6_05.pg, 1, -1 
-union/setIntByParts/an8_2_15.pg, 1, -1 
-union/setIntByParts/sc5_6_15.pg, 1, -1 
-union/setIntByParts/mec_int1.pg, 1, -1 
-union/setHonorCode/AffirmationListingCollabSources.pg, 0, -1 
+Library/Union/setIntByParts/sc5_6_01.pg, 1, -1 
+Library/Union/setIntByParts/an8_2_03.pg, 1, -1 
+Library/Union/setIntByParts/sc5_6_02.pg, 1, -1 
+Library/Union/setIntByParts/sc5_6_03.pg, 1, -1 
+Library/Union/setIntByParts/an8_2_13.pg, 1, -1 
+Library/Union/setIntByParts/sc5_6_07.pg, 1, -1 
+Library/Union/setIntByParts/sc5_6_04.pg, 1, -1 
+Library/Union/setIntByParts/sc5_6_05.pg, 1, -1 
+Library/Union/setIntByParts/an8_2_15.pg, 1, -1 
+Library/Union/setIntByParts/sc5_6_15.pg, 1, -1 
+Library/Union/setIntByParts/mec_int1.pg, 1, -1 
+Library/Union/setHonorCode/AffirmationListingCollabSources.pg, 0, -1 
 

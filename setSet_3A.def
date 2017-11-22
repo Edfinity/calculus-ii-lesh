@@ -2,18 +2,17 @@
 openDate          = 04/15/2015 at 01:00pm EDT
 dueDate           = 04/17/2015 at 09:00am EDT
 answerDate        = 04/17/2015 at 05:45pm EDT
-paperHeaderFile   = 
+paperHeaderFile   =
 screenHeaderFile  = headers/set_3A_Header.pg
-problemList       = 
-union/setIntBasic/basic2.pg, 1, -1 
-union/setIntBasic/basic4.pg, 1, -1 
-union/setIntBasic/basic1.pg, 1, -1 
-union/setIntBasic/basic3.pg, 1, -1 
-union/setIntBasic/an7_2_7.pg, 1, -1 
-union/setIntBasic/an7_2_9.pg, 1, -1 
-union/setIntBasic/an7_2_13.pg, 1, -1 
-union/setIntBasic/an7_2_23.pg, 1, -1 
-union/setIntBasic/antiderv-matching.pg, 1, -1 
-rochester/setIntegrals2Indefinite/sc5_3_45a.pg, 1, -1 
-union/setHonorCode/AffirmationListingCollabSources.pg, 0, -1 
-
+problemList       =
+Library/Union/setIntBasic/basic2.pg, 1, -1
+Library/Union/setIntBasic/basic4.pg, 1, -1
+Library/Union/setIntBasic/basic1.pg, 1, -1
+Library/Union/setIntBasic/basic3.pg, 1, -1
+Library/Union/setIntBasic/an7_2_7.pg, 1, -1
+Library/Union/setIntBasic/an7_2_9.pg, 1, -1
+Library/Union/setIntBasic/an7_2_13.pg, 1, -1
+Library/Union/setIntBasic/an7_2_23.pg, 1, -1
+Library/Union/setIntBasic/antiderv-matching.pg, 1, -1
+Library/Rochester/setIntegrals2Indefinite/sc5_3_45a.pg, 1, -1
+Library/Union/setHonorCode/AffirmationListingCollabSources.pg, 0, -1

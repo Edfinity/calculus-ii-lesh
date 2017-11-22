@@ -5,9 +5,9 @@ answerDate        = 05/18/2015 at 05:49pm EDT
 paperHeaderFile   = 
 screenHeaderFile  = headers/setHeader.pg
 problemList       = 
-union/setIntPartialFractions/ur_in_25_15.pg, 1, -1 
-union/setIntPartialFractions/ur_in_25_16.pg, 1, -1 
-union/setIntPartialFractions/kl1.pg, 1, -1 
-union/setIntPartialFractions/ur_in_25_04.pg, 1, -1 
-union/setHonorCode/AffirmationListingCollabSources.pg, 0, -1 
+Library/Union/setIntPartialFractions/ur_in_25_15.pg, 1, -1 
+Library/Union/setIntPartialFractions/ur_in_25_16.pg, 1, -1 
+Library/Union/setIntPartialFractions/kl1.pg, 1, -1 
+Library/Union/setIntPartialFractions/ur_in_25_04.pg, 1, -1 
+Library/Union/setHonorCode/AffirmationListingCollabSources.pg, 0, -1 
 

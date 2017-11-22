@@ -5,11 +5,11 @@ answerDate        = 06/01/2015 at 09:00pm EDT
 paperHeaderFile   = 
 screenHeaderFile  = headers/set7AHeader.pg
 problemList       = 
-union/setIntSubstitution/6-2-19.pg, 1, -1 
-union/setIntByParts/an8_2_15.pg, 1, -1 
-union/setIntInverseTrigSub/an8_4_09.pg, 1, -1 
-union/setIntBasic/basic3.pg, 1, -1 
-rochester/setIntegrals25RationalFunctions/ur_in_25_15.pg, 1, -1 
-union/setIntByParts/sc5_6_03.pg, 1, -1 
-union/setHonorCode/AffirmationListingCollabSources.pg, 0, -1 
+Library/Union/setIntSubstitution/6-2-19.pg, 1, -1 
+Library/Union/setIntByParts/an8_2_15.pg, 1, -1 
+Library/Union/setIntInverseTrigSub/an8_4_09.pg, 1, -1 
+Library/Union/setIntBasic/basic3.pg, 1, -1 
+Library/Rochester/setIntegrals25RationalFunctions/ur_in_25_15.pg, 1, -1 
+Library/Union/setIntByParts/sc5_6_03.pg, 1, -1 
+Library/Union/setHonorCode/AffirmationListingCollabSources.pg, 0, -1 
 
